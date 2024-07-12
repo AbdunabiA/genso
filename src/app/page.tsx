@@ -6,7 +6,8 @@ import logo from '@/assets/logo/logoFull.png'
 export default function Home() {
   return (
     <main className="text-white">
-      <div className="bg-[url('/header-bg.png')] bg-cover">
+      <div className="relative">
+        <Image src={bg} alt="bg" priority={true} className="absolute object-cover w-full h-full z-[-1]"/>
         <div className="container mx-auto max-w-[1200px] px-5">
           <div className="flex flex-col md:flex-row items-center lg:gap-[92px] gap-[50px] lg:pt-[83px] pt-[60px] pb-[130px]">
             <div className="w-full flex justify-center">
