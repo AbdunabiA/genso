@@ -10,7 +10,7 @@ interface PrimaryButtonLinkType {
 
 const PrimaryButtonLink = ({title, to, className }:PrimaryButtonLinkType) => {
   return (
-    <Link href={to} className={cn("text-white py-[15px] px-[30px] bg-primaryGreen rounded-[50px]", className)}>
+    <Link href={to} className={cn("py-[15px] px-[30px] bg-primaryGreen rounded-[50px]", className)}>
       {title}
     </Link>
   );
