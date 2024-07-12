@@ -29,7 +29,7 @@ const Navbar = () => {
         src={logo}
         width={100}
         height={100}
-        priority={true}
+        priority
         alt="Logo"
         className="w-[50px] h-[50px] lg:w-[107px] lg:h-[107px]"
       />
@@ -53,7 +53,7 @@ const Navbar = () => {
             src={logoFull}
             width={100}
             height={100}
-            priority={true}
+            priority
             alt="Logo"
             className="w-[120px]"
           />
