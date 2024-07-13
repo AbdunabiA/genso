@@ -43,7 +43,7 @@ const Navbar = () => {
           "md:flex md:gap-10 md:items-center",
           `${
             sideBar
-              ? "fixed w-full h-screen top-0 left-0 flex flex-col gap-6 p-6 backdrop-blur-lg bg-black/70 items-center z-50"
+              ? "fixed w-full h-screen top-0 left-0 flex flex-col gap-6 p-6 backdrop-blur-lg bg-black/75 items-center z-50"
               : "hidden"
           }`
         )}
