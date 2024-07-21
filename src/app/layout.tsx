@@ -4,8 +4,29 @@ import "./globals.css";
 import Navbar from "./navbar";
 
 const involve = Involve({
-      src: "../../public/Involve-Regular.otf",
-    },);
+  src: [
+    {
+      path: "../../public/Involve-Regular.otf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../../public/Involve-Bold.otf",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "../../public/Involve-SemiBold.otf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../../public/Involve-Medium.otf",
+      weight: "500",
+      style: "normal",
+    },
+  ],
+});
 
 export const metadata: Metadata = {
   title: "Genso",
