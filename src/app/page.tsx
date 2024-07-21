@@ -7,6 +7,8 @@ import port3 from "@/assets/images/Portfolio3.png";
 import port4 from "@/assets/images/Portfolio4.png";
 import port5 from "@/assets/images/Portfolio5.png";
 import WrapperContainer from "./wrapperContainer";
+import PrimaryButtonLink from "@/components/ui/primaryButtonLink";
+import LogosCarousel from "@/components/carousels/logosCarousel";
 
 const stats = [
   {
@@ -107,7 +109,27 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="flex flex-col lg:flex-row lg:justify-between gap-3 items-center mt-6 text-[26px]">
+          <p className="lg:text-[50px] lg:w-[750px]">
+            Это всего лишь малая часть наших
+            <span className="text-primaryGreen"> работ</span>
+          </p>
+          <PrimaryButtonLink title="Портфолио" to="" />
+        </div>
       </WrapperContainer>
+      <WrapperContainer>
+        <div className="lg:flex lg:justify-end">
+          <p className="text-[30px] md:text-[40px] lg:text-[60px] lg:w-[550px] text-center mt-10 lg:text-start">
+            Наши партенеры нам{" "}
+            <span className="text-primaryGreen">доверяют!</span>
+          </p>
+        </div>
+      </WrapperContainer>
+      <div className="bg-[url('/header-bg.png')] bg-cover  rounded-[146px] mt-8 overflow-hidden">
+        <div className="w-full h-full bg-gradient-to-r from-transparent via-primaryGreen from-20% via-60% to-80% to-transparent p-6 md:p-8  lg:p-14">
+          <LogosCarousel />
+        </div>
+      </div>
     </main>
   );
 }
