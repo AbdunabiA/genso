@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import Involve from "next/font/local";
 import "./globals.css";
 import Navbar from "./navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const involve = Involve({
+      src: "../../public/Involve-Regular.otf",
+    },);
 
 export const metadata: Metadata = {
   title: "Genso",
@@ -17,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={involve.className}>
         <div className="min-h-screen">
           <Navbar />
           {children}
