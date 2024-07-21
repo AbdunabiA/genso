@@ -109,12 +109,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row lg:justify-between gap-3 items-center mt-6 text-[26px]">
-          <p className="lg:text-[50px] lg:w-[750px]">
+        <div className="flex flex-col lg:flex-row lg:justify-between gap-3 items-center mt-6 ">
+          <p className="text-[26px] lg:text-[50px] lg:w-[750px]">
             Это всего лишь малая часть наших
             <span className="text-primaryGreen"> работ</span>
           </p>
-          <PrimaryButtonLink title="Портфолио" to="" />
+          <PrimaryButtonLink title="Портфолио" to="" className="text-[20px] lg:text-[26px]" />
         </div>
       </WrapperContainer>
       <WrapperContainer>
