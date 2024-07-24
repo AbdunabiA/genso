@@ -24,7 +24,7 @@ const CommentCard = ({name, company, comment, img, classname}:Comment) => {
           <p className="text-[14px] lg:text-[17px]">Компания {company}</p>
         </div>
       </div>
-      <p className="my-4 text-[22px] font-[100]">{comment}</p>
+      <p className="my-4 text-[18px] lg:text-[20px] font-[100]">{comment}</p>
       <div className="flex items-center gap-3">
         <div className="flex items-center gap-2">
           {st.map((star, i) => {
