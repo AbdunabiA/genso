@@ -20,18 +20,18 @@ const CommentCard = ({name, company, comment, img, classname}:Comment) => {
           <Image src={img} alt="img" />
         </div>
         <div>
-          <p className="text-[22px] lg:text-[25px] font-bold">{name}</p>
-          <p className="text-[14px] lg:text-[17px]">Компания {company}</p>
+          <p className="text-[18px] lg:text-[22px] font-bold">{name}</p>
+          <p className="text-[14px] lg:text-[16px]">Компания {company}</p>
         </div>
       </div>
-      <p className="my-4 text-[18px] lg:text-[20px] font-[100]">{comment}</p>
+      <p className="my-4 text-[15px] lg:text-[17px] font-[100]">{comment}</p>
       <div className="flex items-center gap-3">
         <div className="flex items-center gap-2">
           {st.map((star, i) => {
-            return <Star key={i} className="w-6 fill-[#FFAC33] lg:w-8" />;
+            return <Star key={i} className="w-5 fill-[#FFAC33] lg:w-7" />;
           })}
         </div>
-        <p className="text-2xl lg:text-4xl">5</p>
+        <p className="text-2xl lg:text-3xl">5</p>
       </div>
     </div>
   );

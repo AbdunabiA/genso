@@ -24,7 +24,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="text-white font-semibold lg:text-[24px] max-w-[1200px] container mx-auto px-5 flex justify-between items-center py-4">
+    <header className="text-white lg:text-[20px] max-w-[1200px] container mx-auto px-5 flex justify-between items-center py-4">
       <Image
         src={logo}
         width={100}
@@ -74,7 +74,7 @@ const Navbar = () => {
         </div>
       </nav>
       <PrimaryButtonLink
-        className="hidden md:block lg:text-[28px]"
+        className="hidden md:block lg:text-[20px]"
         title="+998 91 327-22-17"
         to="tel:+998913272217"
       />

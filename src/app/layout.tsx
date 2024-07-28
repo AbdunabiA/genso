@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Involve from "next/font/local";
 import "./globals.css";
 import Navbar from "./navbar";
+import Footer from "./footer";
 
 const involve = Involve({
   src: [
@@ -44,6 +45,7 @@ export default function RootLayout({
         <div className="min-h-screen">
           <Navbar />
           {children}
+          <Footer/>
         </div>
       </body>
     </html>

@@ -44,7 +44,7 @@ const CommentsSection = () => {
   return (
     <WrapperContainer>
       <div className="flex justify-between items-center mt-24">
-        <p className="lg:text-[60px] md:text-[36px] text-[26px] max-w-[300px] lg:max-w-[700px] md:max-w-[400px]">
+        <p className="lg:text-[50px] md:text-[36px] text-[26px] max-w-[300px] lg:max-w-[600px] md:max-w-[400px]">
           Отзывы от наших клиентов
         </p>
         <div className="flex items-center gap-4">

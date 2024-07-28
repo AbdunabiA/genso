@@ -12,11 +12,11 @@ const PortfolioSection = () => {
   return (
     <WrapperContainer>
       <div className="mt-4 md:mt-10">
-        <p className="text-[24px] leading-relaxed md:w-[500px] md:text-[34px] lg:text-[60px] lg:w-[900px] lg:leading-[60px]">
-          Вы можете ознакомиться с нашим{" "}
+        <p className="text-[24px] leading-relaxed md:w-[500px] md:text-[34px] lg:text-[50px] lg:w-[900px] lg:leading-[50px]">
+          Вы можете ознакомиться с нашим
           <span className="text-primaryGreen">портфолио</span>
         </p>
-        <p className="lg:text-[22px] lg:w-[500px] lg:leading-[27px] text-[14px] mt-4 lg:mt-10 leading-relaxed md:mt-6 md:text-base md:w-[350px]">
+        <p className="lg:text-[20px] lg:w-[500px] lg:leading-[27px] text-[14px] mt-4 lg:mt-10 leading-relaxed md:mt-6 md:text-base md:w-[350px]">
           Познакомьтесь с нашими проектами по созданию уникальных брендов,
           впечатляющих веб-сайтов и эффективных SMM-стратегий, которые помогли
           нашим клиентам выделиться и расти.
@@ -45,7 +45,7 @@ const PortfolioSection = () => {
         </div>
       </div>
       <div className="flex flex-col lg:flex-row lg:justify-between gap-3 items-center mt-6 ">
-        <p className="text-[26px] lg:text-[50px] lg:w-[750px]">
+        <p className="text-[26px] lg:text-[40px] lg:w-[650px]">
           Это всего лишь малая часть наших
           <span className="text-primaryGreen"> работ</span>
         </p>

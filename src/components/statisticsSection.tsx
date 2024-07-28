@@ -27,10 +27,10 @@ const StatisticsSection = () => {
         {stats.map((stat) => {
           return (
             <div key={stat.secondary}>
-              <p className="lg:text-[35px] text-[22px] font-semibold text-center">
+              <p className="lg:text-[30px] text-[22px] font-semibold text-center">
                 {stat.primary}
               </p>
-              <p className="text-center lg:text-[22px]">{stat.secondary}</p>
+              <p className="text-center lg:text-[20px]">{stat.secondary}</p>
             </div>
           );
         })}

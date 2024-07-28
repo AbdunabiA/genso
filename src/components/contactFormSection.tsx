@@ -7,8 +7,8 @@ const ContactFormSection = () => {
     <div className='bg-[url("/header-bg.png")] bg-cover bg-no-repeat pb-10'>
       <WrapperContainer>
         <div className="flex flex-col items-center">
-          <div className="max-md:w-full flex flex-col items-center gap-5 p-4 lg:p-32 bg-black/20 backdrop-blur-sm rounded-[0px_0px_20px_20px] lg:rounded-[0px_0px_80px_80px] overflow-hidden ">
-            <p className="text-[24px] w-[250px] lg:text-[60px] lg:w-[600px] text-center lg:mb-12">
+          <div className="max-md:w-full flex flex-col items-center gap-5 p-4 lg:p-32 lg:pt-28 bg-black/20 backdrop-blur-sm rounded-[0px_0px_20px_20px] lg:rounded-[0px_0px_80px_80px] overflow-hidden ">
+            <p className="text-[24px] w-[250px] lg:text-[50px] lg:w-[500px] text-center lg:mb-12">
               Есть проект? Давайте обсудим.
             </p>
             <form className="w-full flex items-center flex-col gap-5">

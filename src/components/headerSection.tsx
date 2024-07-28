@@ -25,7 +25,7 @@ const HeaderSection = () => {
             />
           </div>
           <div className="w-full">
-            <p className="lg:w-[624px] lg:px-0 px-5 lg:py-14 py-8 backdrop-blur-sm lg:text-[28px] text-center font-semibold">
+            <p className="lg:w-[624px] lg:px-0 px-5 lg:py-14 py-8 backdrop-blur-sm lg:text-[24px] text-center">
               Добро пожаловать в <span className="text-primaryGreen">G</span>
               enso – маркетинговое агентство и дизайн студию. Мы создаем
               уникальные бренды, впечатляющие веб-сайты и эффективные
