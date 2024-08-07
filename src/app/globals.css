@@ -5,3 +5,9 @@
 body {
     @apply bg-black
 }
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: #1DDD42 black;
+    scrollbar-width: thin;
+}

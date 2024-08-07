@@ -9,7 +9,10 @@ import Image from "next/image";
 const ServicesSection = () => {
   return (
     <WrapperContainer>
-      <div className="flex justify-between items-center mt-2 sm:mt-6 md:mt-10 lg:mt-12">
+      <div
+        className="flex justify-between items-center mt-2 sm:mt-6 md:mt-10 lg:mt-12"
+        id="services"
+      >
         <p className="text-[22px] sm:text-[26px] md:text-[30px] lg:text-[40px] text-primaryGreen">
           Наши
         </p>

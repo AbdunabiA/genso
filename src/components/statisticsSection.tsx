@@ -23,7 +23,10 @@ const stats = [
 const StatisticsSection = () => {
   return (
     <WrapperContainer>
-      <div className="my-10 lg:my-14 flex-wrap gap-6 flex gap-y-3 justify-between items-center px-5 lg:px-16 text-primaryBlack bg-primaryGreen lg:py-11 py-5 rounded-[20px]">
+      <div
+        className="my-10 lg:my-14 flex-wrap gap-6 flex gap-y-3 justify-between items-center px-5 lg:px-16 text-primaryBlack bg-primaryGreen lg:py-11 py-5 rounded-[20px]"
+        id="about-us"
+      >
         {stats.map((stat) => {
           return (
             <div key={stat.secondary}>

@@ -14,7 +14,7 @@ const PortfolioSection = () => {
       <div className="mt-4 md:mt-10">
         <p className="text-[24px] leading-relaxed md:w-[500px] md:text-[34px] lg:text-[50px] lg:w-[900px] lg:leading-[50px]">
           Вы можете ознакомиться с нашим
-          <span className="text-primaryGreen">портфолио</span>
+          <span className="text-primaryGreen"> портфолио</span>
         </p>
         <p className="lg:text-[20px] lg:w-[500px] lg:leading-[27px] text-[14px] mt-4 lg:mt-10 leading-relaxed md:mt-6 md:text-base md:w-[350px]">
           Познакомьтесь с нашими проектами по созданию уникальных брендов,
