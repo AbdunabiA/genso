@@ -47,7 +47,7 @@ const Navbar = () => {
             "md:flex md:gap-10 md:items-center",
             `${
               sideBar
-                ? "fixed w-full h-screen top-0 left-0 flex flex-col gap-6 p-6 backdrop-blur-lg bg-black/75 items-center z-50"
+                ? "fixed w-full h-screen top-0 left-0 flex flex-col gap-6 p-6 backdrop-blur-lg bg-black/95 items-center z-50"
                 : "hidden"
             }`
           )}
@@ -68,7 +68,7 @@ const Navbar = () => {
           </div>
           {links.map((link) => {
             return (
-              <Link href={link.to} key={link.to}>
+              <Link href={link.to} key={link.to} onClick={()=>setSideBar(false)}>
                 {link.title}
               </Link>
             );
