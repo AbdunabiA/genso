@@ -21,7 +21,7 @@ const ServicesSection = () => {
         </p>
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 mt-6 gap-4">
-        <div className="border border-white/30 rounded-[20px] p-5 overflow-hidden lg:row-span-2">
+        <div className="border border-white/30 rounded-[20px] p-5 overflow-hidden lg:row-span-2 hover:bg-white/80 hover:text-black transition-colors duration-300  ">
           <div className="h-full flex flex-col justify-between">
             <div>
               <p className="text-[35px]">01</p>
@@ -40,7 +40,7 @@ const ServicesSection = () => {
             </div>
           </div>
         </div>
-        <div className="border border-white/30 rounded-[20px] p-5 overflow-hidden">
+        <div className="border border-white/30 rounded-[20px] p-5 overflow-hidden hover:bg-white/80 hover:text-black transition-colors duration-300">
           <div className="flex gap-6">
             <p className="text-[35px]">02</p>
             <Image src={img2} alt="img" />
@@ -52,7 +52,7 @@ const ServicesSection = () => {
           <p className="text-[30px] mt-4">Веб сайт</p>
         </div>
 
-        <div className="border border-white/30 rounded-[20px] p-5 overflow-hidden flex row-span-2">
+        <div className="border border-white/30 rounded-[20px] p-5 overflow-hidden flex row-span-2 hover:bg-white/80 hover:text-black transition-colors duration-300">
           <div className="">
             <p className="text-[35px]">03</p>
             <p className="mt-32 text-[15px] opacity-80">
@@ -65,10 +65,10 @@ const ServicesSection = () => {
             <Image src={img3} alt="img3" className="h-full translate-x-[50%]" />
           </div>
         </div>
-        <div className="border border-white/30 rounded-[20px] p-5 overflow-hidden row-span-2">
+        <div className="border border-white/30 rounded-[20px] p-5 overflow-hidden row-span-2 hover:bg-white/80 hover:text-black transition-colors duration-300">
           <div className="h-full flex flex-col justify-between">
             <div>
-              <p className="text-[35px]">04</p>
+              <p className="text-[35px]">05</p>
               <Image src={img4} alt="img4" className="translate-y-[-20%]" />
             </div>
             <div>
@@ -80,9 +80,9 @@ const ServicesSection = () => {
             </div>
           </div>
         </div>
-        <div className="border border-white/30 rounded-[20px] p-5 overflow-hidden">
+        <div className="border border-white/30 rounded-[20px] p-5 overflow-hidden hover:bg-white/80 hover:text-black transition-colors duration-300">
           <div className="flex justify-between">
-            <p className="text-[35px]">05</p>
+            <p className="text-[35px]">04</p>
             <Image
               src={img5}
               alt="img5"
