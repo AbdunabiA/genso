@@ -3,6 +3,7 @@ import Involve from "next/font/local";
 import "./globals.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
+import Head from "next/head";
 
 const involve = Involve({
   src: [
@@ -58,11 +59,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="GuJ2Eu1twA88-oN6fSNPw_isAPMwxDXqcWI4mJpzQvE"
+        />
+      </Head>
       <body className={involve.className}>
         <div className="min-h-screen">
           <Navbar />
           {children}
-          <Footer/>
+          <Footer />
         </div>
       </body>
     </html>
